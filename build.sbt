@@ -2,6 +2,7 @@ val ZioVersion = "1.0.3"
 
 resolvers += Resolver.sonatypeRepo("releases")
 resolvers += Resolver.sonatypeRepo("snapshots")
+scalaVersion := "2.13.4"
 
 lazy val root = (project in file("."))
   .settings(
@@ -14,7 +15,6 @@ lazy val root = (project in file("."))
       "dev.zio" %% "zio" % ZioVersion
     )
   )
-
 // Refine scalac params from tpolecat
 scalacOptions --= Seq(
   "-Xfatal-warnings"
