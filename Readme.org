@@ -4,5 +4,8 @@ Example app for demonstrating bootstraper use.
 To bootstrap this app run e.g.:
 
 #+begin_src sh
-wget https://raw.githubusercontent.com/JakDar/zio-cli-test/master/installer.sh -o ~/.local/bin/zio-cli-test &&  chmod u+x ~/.local/bin/zio-cli-test
+wget https://raw.githubusercontent.com/JakDar/zio-cli-test/master/installer.sh -O ~/.local/bin/zio-cli-test &&  chmod u+x ~/.local/bin/zio-cli-test
+
+# And (provided you have ~/.local/bin in PATH):
+zio-cli-test /etc/passwd # or any other existing file ;)
 #+end_src
