@@ -1,0 +1,8 @@
+#+TITLE: Readme
+
+Example app for demonstrating bootstraper use.
+To bootstrap this app run e.g.:
+
+#+begin_src sh
+wget https://raw.githubusercontent.com/JakDar/zio-cli-test/master/installer.sh -o ~/.local/bin/zio-cli-test &&  chmod u+x ~/.local/bin/zio-cli-test
+#+end_src
